@@ -1,0 +1,1 @@
+# This project is created to sololey to learn about creating an automated FOREX trading bot using Metadata 4 and MQL 4.
