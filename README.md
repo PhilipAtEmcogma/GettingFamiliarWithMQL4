@@ -23,3 +23,13 @@
 ### 6. datetime - date time
 ##
 ## by having an ";" in the end of a line, it turns an expression into an statement in MQL4.  Expression itself is a type of operations in MQL4.
+#
+## MQL4 has 6 logical operations which are:
+### ==  - check if two variable are they equal
+### != - check if two variable are not equal
+### < - less than
+### > - larger than
+### <= - lesser or equal to
+### >= - larger or equal to
+#
+## the "Bid" variable is an inbuild variable for MQL4 that represents the current bid prices of the asset pair, its always avaliable in MQL4.
