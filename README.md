@@ -33,3 +33,12 @@
 ### >= - larger or equal to
 #
 ## the "Bid" variable is an inbuild variable for MQL4 that represents the current bid prices of the asset pair, its always avaliable in MQL4.
+#
+# a "Point" is a MQL4 keyword representing 0.0001 of a dollar.  1 pip is a forex term representing 0.001 of a dollar
+#
+# pressing F1 after highlighting an built-in function, will open up the description of the functions
+#
+# IMPORTANT NOTICE!
+# IN ORDER FOR ALGORITHMIC TRADING TO WORK PROPERLY IN METADATA4, THE "AutoTrading" FUNCTION NEED TO BE TURNED ON.  IF THERE'S A RED CIRCLE ON "AutoTrading" IT NEED TO BE TURN ON
+#
+# In MQL4 there's no need to declar a function, e.g. int MyAddition(int val1, int val2); , a function can be directly coded as is.
