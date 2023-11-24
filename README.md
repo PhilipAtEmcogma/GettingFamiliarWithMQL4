@@ -63,4 +63,12 @@
 ##            arrow_cloor - the colour of the bar to use for representing a closed trade
 #
 # OrderModify
-## 
+## This function modifies an order. OrderModify takes in 6 parameters
+##            ticket - the order ticket # for the order we want to modify
+##            price - adjust the order to this new price
+##            stoploss - adjust to this new stop loss level
+##            takeprofit - adjust to this new takeprofit level
+##            expiration - when will this pending orders expries
+#
+# OrderSelect
+## This function selects an order for further processing.
