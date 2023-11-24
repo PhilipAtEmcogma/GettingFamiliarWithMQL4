@@ -62,4 +62,5 @@
 ##            slippage - acceptable maximum slippage in points (percentage)
 ##            arrow_cloor - the colour of the bar to use for representing a closed trade
 #
-# OrderSelect
+# OrderModify
+## 

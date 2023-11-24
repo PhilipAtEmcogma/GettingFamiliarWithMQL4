@@ -1,5 +1,5 @@
 //+------------------------------------------------------------------+
-//|                                                   OrderClose.mq4 |
+//|                                                  OrderModify.mq4 |
 //|                                          Copyright 2023, Emcogma |
 //|                                         https://www.emcogma.tech |
 //+------------------------------------------------------------------+
@@ -47,6 +47,30 @@ void OnStart()
       else
       {
          Alert("Your Ticket # is: " + string(ticket));
+         Sleep(5000);
+      
+         Alert("Modifying Order...");
+        
+         bool res;
+         
+         /* OrderModify takes in 6 parameters
+            ticket - the order ticket # for the order we want to modify
+            price - adjust the order to this new price
+            stoploss - adjust to this new stop loss level
+            takeprofit - adjust to this new takeprofit level
+            expiration - when will this pending orders expries
+         
+         */
+         res = OrderModify(ticket,0,Bid-2*StopLoss*Point,Bid+2*TakeProfit*Point, 0);
+         if(res == false)
+         {
+            Alert("ERROR modifying order!");
+         }
+         else
+         {
+            Alert("Order modified successfully");
+         }
+         
          Alert("Closing order ...");
          bool res;
          
