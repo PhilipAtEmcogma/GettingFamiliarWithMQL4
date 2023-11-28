@@ -76,6 +76,8 @@
 # Below are description of some of the indicators that are avaliable in MQL4 library (will add more inperoridcally):
 ## iMA - indicator Moving Average
 #
+# NOTE: Make sure you compile and run the code in MQL4 to update the strategy file before testing it.  Otherwise Tester will still use the old file
+#
 # After coding the strategy use the "Strategy Tester" in MT4 to test it.  Something to take note of:  
 ##  1. click on "Expert Properties" to select which parameters to optimise on
 ##  2. make sure to click on optimization checkbox, if you want to optimise the selected parameters in 1.
