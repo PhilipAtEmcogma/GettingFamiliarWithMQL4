@@ -8,9 +8,9 @@
 #property version   "1.00"
 #property strict
 
-extern int StartHour = 9; //9am start
-extern int TakeProfit = 40; //take profits at 40 pip
-extern int StopLoss = 40; // stop loss at 40 pip
+extern int StartHour = 3; //start hour
+extern int TakeProfit = 110; //take profits at 110 pip
+extern int StopLoss = 120; // stop loss at 120 pip
 extern double Lots = 1; //How many lots of trading pair to buy/sell
 extern int MA_Period = 10; //10 MA period
 

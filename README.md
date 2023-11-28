@@ -85,3 +85,5 @@
 ##  4. after optimisation is completed, you can check on the "Report" tab to see how successful and satisfing is the strategy
 ##  5. if optimised parameters satisfied criteria, click on "Optimization Results" tab and select the best parameters setting, right click on it and choose "set input parameters" to update strategy parameters
 #
+# To make sure the EA is running on the a particular trading pairs, check the chart to see if there's a smiley face on the top right corner.  If there is, it means it's running.
+# NOTE: Make sure the AutoTrading function is turned on.
