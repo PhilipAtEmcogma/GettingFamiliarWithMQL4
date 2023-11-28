@@ -72,3 +72,6 @@
 #
 # OrderSelect
 ## This function selects an order for further processing.
+#
+# Below are description of some of the indicators that are avaliable in MQL4 library (will add more inperoridcally):
+## iMA - indicator Moving Average
